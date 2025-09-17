@@ -52,7 +52,7 @@ const TestimonialCarousel: React.FC = () => {
       // avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     },
     {
-      content: "My tote bag has been with me for years. The quality is outstanding, and it still looks as good as new despite daily use. Highly recommend!",
+      content: "My tote bag has been with me for years. A 4k wallpaper",
       author: "Abdallah",
       role: "Designer",
       // avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
