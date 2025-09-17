@@ -57,6 +57,10 @@ const TestimonialCarousel: React.FC = () => {
       role: "Content Creator",
       // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     },
+{content:"The items where the exact of what i needed",
+  author:"brian mageto",
+  role:"atachee",
+},
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
       author: "Dida Doshi",
