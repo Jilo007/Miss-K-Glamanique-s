@@ -59,7 +59,7 @@ const TestimonialCarousel: React.FC = () => {
     },
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
-      author: "Dida Doshi",
+      author: "Dida -Doshi",
       role: "Photographer",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
     },
@@ -69,6 +69,16 @@ const TestimonialCarousel: React.FC = () => {
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },
+     {
+      content: " The product was not really what I expected but it was still good.",
+      author: "Flacka",
+      role: "Student",
+     },
+       {
+      content: " The product was not really what I expected but it was still good.",
+      author: "mangise",
+      role: "Student",
+     }
   ];
 
   const nextSlide = () => {
