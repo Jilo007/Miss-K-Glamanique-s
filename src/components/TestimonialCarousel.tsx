@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { normalizePath } from "../utils/imageUtils";
+import { Content } from "vaul";
 
 interface TestimonialProps {
   content: string;
@@ -68,6 +69,11 @@ const TestimonialCarousel: React.FC = () => {
       author: "Nas Karuku",
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    },
+    {
+      content: "The bags are great for anything and the materials are also great.",
+      author: "Maxwel ochieng",
+      role: "Student", 
     },
   ];
 
