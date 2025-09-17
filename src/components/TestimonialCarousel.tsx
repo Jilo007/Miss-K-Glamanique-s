@@ -69,6 +69,11 @@ const TestimonialCarousel: React.FC = () => {
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },
+    {
+      content:"high quality material,very durable and a worthy investment.",
+      author: "Beyonce Nyamoita",
+      role: " Student",
+    },
   ];
 
   const nextSlide = () => {
