@@ -74,6 +74,11 @@ const TestimonialCarousel: React.FC = () => {
       author: "Flacka",
       role: "Student",
      }
+       {
+      content: " by far one of the best products.",
+      author: "Jesus",
+      role: "Jehovah",
+     }
   ];
 
   const nextSlide = () => {
