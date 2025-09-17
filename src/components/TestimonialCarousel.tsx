@@ -52,6 +52,11 @@ const TestimonialCarousel: React.FC = () => {
       // avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     },
     {
+      content:"This is exactly what i needed,its practical,stylish and so easy to use everyday",
+      author: "Faith Roshan",
+      role:"customer",
+    },
+    {
       content: "I absolutely love the minimalist design. Perfect for work, shopping, and everything in between. The sustainable materials make me feel good about my purchase.",
       author: "Spice Nyambura",
       role: "Content Creator",
