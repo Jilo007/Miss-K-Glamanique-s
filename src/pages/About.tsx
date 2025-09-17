@@ -92,7 +92,7 @@ const About = () => {
                 image: "https://images.unsplash.com/photo-1556760544-74068565f05c",
               },
               {
-                title: "Timeless Design",
+                title: "Timeless  Artistic Design",
                 description:
                   "We create minimalist, versatile designs that remain stylish and functional for years to come.",
                 image: normalizePath("/image/kpa dockers.jpeg"),
