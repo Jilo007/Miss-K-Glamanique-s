@@ -47,7 +47,7 @@ const TestimonialCarousel: React.FC = () => {
   const testimonials = [
     {
       content: "My tote bag has been with me for years. The quality is outstanding, and it still looks as good as new despite daily use. Highly recommend!",
-      author: "Angie Juma",
+      author: "Angie-Juma",
       role: "Designer",
       // avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     },
@@ -57,6 +57,14 @@ const TestimonialCarousel: React.FC = () => {
       role: "Content Creator",
       // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     },
+{content:"The items where the exact of what i needed but i hope next time will be beter",
+  author:"brian mageto",
+  role:"atachee",
+},
+{ contet:"the best of the best",
+  author:"deno davi",
+  role:"creator"
+},
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
       author: "Dida Doshi",
