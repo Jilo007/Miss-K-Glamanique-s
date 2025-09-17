@@ -58,6 +58,12 @@ const TestimonialCarousel: React.FC = () => {
       // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     },
     {
+      content: "This tote bag is a game-changer! The spacious interior and sturdy construction make it ideal for carrying all my essentials without any hassle.",
+      author: "Cleophas Lokwalinganyang",
+      role: "Developer",
+      avatar: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f92",
+    },
+    {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
       author: "Dida Doshi",
       role: "Photographer",
