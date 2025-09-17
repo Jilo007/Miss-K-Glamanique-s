@@ -65,9 +65,14 @@ const TestimonialCarousel: React.FC = () => {
     },
     {
       content: "The premium leather handles on my tote bag make all the difference. It's both functional and stylish - I get compliments everywhere I go.",
-      author: "Nas Karuku",
+      author: "Nas-Karuku",
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    },
+    {
+      content:"high quality material,very durable and a worthy investment.",
+      author: "Beyonce Nyamoita",
+      role: " Student",
     },
   ];
 
