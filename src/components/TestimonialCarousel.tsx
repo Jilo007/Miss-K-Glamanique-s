@@ -69,6 +69,12 @@ const TestimonialCarousel: React.FC = () => {
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },
+    {
+    content: "The premium leather handles on my tote bag make all the difference. It's both functional and stylish - I get compliments everywhere I go.",
+      author: "Haron isaac",
+      role: "Student",
+      // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+  },
   ];
 
   const nextSlide = () => {
