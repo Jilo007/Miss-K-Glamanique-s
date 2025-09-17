@@ -11,7 +11,7 @@ import { normalizePath } from "../utils/imageUtils";
 
 const About = () => {
   const navigate = useNavigate();
-  
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -21,7 +21,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-medium mb-6 leading-tight">
-              Our Story
+              Our
             </h1>
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8 text-balance">
               Crafting sustainable, minimalist tote bags since 2024.
@@ -37,12 +37,12 @@ const About = () => {
             <div className="order-2 md:order-1 animate-slide-from-left">
               <h2 className="text-3xl font-display font-medium mb-6">Our Mission</h2>
               <p className="text-gray-600 mb-4 text-balance">
-                At Miss K. Glamanique's, our mission is to sell beautiful, functional bags that stand the test of time. 
-                We believe in thoughtful design, sustainable practices, and products that become more 
+                At Miss K. Glamanique's, our mission is to sell beautiful, functional bags that stand the test of time.
+                We believe in thoughtful design, sustainable practices, and products that become more
                 beautiful with age.
               </p>
               <p className="text-gray-600 mb-6 text-balance">
-                Every tote we sell is a reflection of our core values: simplicity, sustainability, and quality craftsmanship. 
+                Every tote we sell is a reflection of our core values: simplicity, sustainability, and quality craftsmanship.
                 We're committed to reducing waste in the fashion industry by creating products that last for years, not seasons.
               </p>
               <Button
@@ -95,7 +95,7 @@ const About = () => {
                 title: "Timeless Design",
                 description:
                   "We create minimalist, versatile designs that remain stylish and functional for years to come.",
-                image: normalizePath("/image/timeless.jpg"),
+                image: normalizePath("/image/totebag01.jpeg"),
               },
             ].map((value, index) => (
               <div
@@ -125,7 +125,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-display font-medium mb-12 text-center">Legal Information</h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               {/* Privacy Policy Card */}
               <div className="group">
@@ -144,9 +144,9 @@ const About = () => {
                   <CardContent className="pt-6">
                     <div className="flex gap-6 items-start mb-4">
                       <div className="w-1/3 overflow-hidden rounded-lg shake-on-hover">
-                        <img 
+                        <img
                           src={normalizePath("/image/privacy.png")}
-                          alt="Privacy Shield" 
+                          alt="Privacy Shield"
                           className="w-full h-32 object-cover"
                         />
                       </div>
@@ -168,8 +168,8 @@ const About = () => {
                   </CardContent>
                   <CardFooter className="border-t pt-4 flex justify-between items-center">
                     <span className="text-xs text-gray-500">Last updated: January 2025</span>
-                    <Button 
-                      variant="ghost" 
+                    <Button
+                      variant="ghost"
                       size="sm"
                       onClick={() => document.getElementById('privacy')?.scrollIntoView({behavior: 'smooth'})}
                     >
@@ -196,9 +196,9 @@ const About = () => {
                   <CardContent className="pt-6">
                     <div className="flex gap-6 items-start mb-4">
                       <div className="w-1/3 overflow-hidden rounded-lg shake-on-hover">
-                        <img 
+                        <img
                           src={normalizePath("/image/service.jpg")}
-                          alt="Terms Document" 
+                          alt="Terms Document"
                           className="w-full h-32 object-cover"
                         />
                       </div>
@@ -220,8 +220,8 @@ const About = () => {
                   </CardContent>
                   <CardFooter className="border-t pt-4 flex justify-between items-center">
                     <span className="text-xs text-gray-500">Last updated: January 2025</span>
-                    <Button 
-                      variant="ghost" 
+                    <Button
+                      variant="ghost"
                       size="sm"
                       onClick={() => document.getElementById('terms')?.scrollIntoView({behavior: 'smooth'})}
                     >
@@ -242,23 +242,23 @@ const About = () => {
             <h2 className="text-3xl font-display font-medium mb-6">Privacy Policy</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-4">
-                At Miss K. Glamanique's, we take your privacy seriously. This Privacy Policy outlines how we collect, 
+                At Miss K. Glamanique's, we take your privacy seriously. This Privacy Policy outlines how we collect,
                 use, and protect your personal information when you visit our website or make a purchase.
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">Information We Collect</h3>
               <p className="text-gray-600 mb-4">
-                We collect information that you provide directly to us, such as your name, email address, 
+                We collect information that you provide directly to us, such as your name, email address,
                 shipping address, and payment information when you make a purchase or contact us.
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">How We Use Your Information</h3>
               <p className="text-gray-600 mb-4">
-                We use your information to process and fulfill your orders, communicate with you about 
-                your purchases, and provide customer service. We may also use your information to send 
+                We use your information to process and fulfill your orders, communicate with you about
+                your purchases, and provide customer service. We may also use your information to send
                 you marketing communications if you have opted in to receive them.
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">Data Security</h3>
               <p className="text-gray-600 mb-4">
-                We implement appropriate security measures to protect your personal information from 
+                We implement appropriate security measures to protect your personal information from
                 unauthorized access, alteration, disclosure, or destruction.
               </p>
             </div>
@@ -277,19 +277,19 @@ const About = () => {
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">Product Information</h3>
               <p className="text-gray-600 mb-4">
-                We make every effort to display our products as accurately as possible. However, colors 
-                may appear differently on different screens, and slight variations in the products themselves 
+                We make every effort to display our products as accurately as possible. However, colors
+                may appear differently on different screens, and slight variations in the products themselves
                 may occur due to the handcrafted nature of our items.
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">Shipping and Returns</h3>
               <p className="text-gray-600 mb-4">
-                We offer delivery within Kenya and internationally to select countries. 
-                Delivery times may vary based on your location. If you are not satisfied with your purchase, 
+                We offer delivery within Kenya and internationally to select countries.
+                Delivery times may vary based on your location. If you are not satisfied with your purchase,
                 you may return it within 30 days for a full refund or exchange.
               </p>
               <h3 className="text-xl font-medium mt-8 mb-4">Intellectual Property</h3>
               <p className="text-gray-600 mb-4">
-                All content on this website, including text, images, logos, and designs, is the property 
+                All content on this website, including text, images, logos, and designs, is the property
                 of Miss K. Glamanique's and is protected by copyright and other intellectual property laws.
               </p>
             </div>

@@ -14,9 +14,9 @@ const Testimonial: React.FC<TestimonialProps> = ({ content, author, role, avatar
     <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md">
       {avatar && (
         <div className="w-20 h-20 mb-4 rounded-full overflow-hidden border-2 border-primary/20">
-          <img 
-            src={normalizePath(avatar)} 
-            alt={author} 
+          <img
+            src={normalizePath(avatar)}
+            alt={author}
             className="w-full h-full object-cover shake-on-hover"
           />
         </div>
@@ -68,6 +68,12 @@ const TestimonialCarousel: React.FC = () => {
       author: "Nas Karuku",
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    },
+    {
+      content: "This bags are a real lifesaver for the average grocery getter. They handle both dry and wet products brilliantly. They can also be used multiple times, as long as you give them a wash",
+      author: "Jitume Lab",
+      role: "Attachee",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },
   ];
 
@@ -127,8 +133,8 @@ const TestimonialCarousel: React.FC = () => {
                 setTimeout(() => setIsTransitioning(false), 500);
               }}
               className={`w-2.5 h-2.5 rounded-full transition-all ${
-                index === currentIndex 
-                  ? "bg-gray-800 scale-110" 
+                index === currentIndex
+                  ? "bg-gray-800 scale-110"
                   : "bg-gray-300 scale-90 hover:bg-gray-400"
               }`}
               aria-label={`Go to slide ${index + 1}`}
