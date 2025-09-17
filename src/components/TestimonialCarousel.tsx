@@ -57,6 +57,12 @@ const TestimonialCarousel: React.FC = () => {
       role: "Content Creator",
       // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     },
+     {
+      content: "I absolutely love the  design. Perfect for work, shopping, and everything in between.",
+      author: "Omay-Lay",
+      role: "Musician",
+      // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    },
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
       author: "Dida Doshi",
@@ -68,6 +74,11 @@ const TestimonialCarousel: React.FC = () => {
       author: "Nas Karuku",
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    },
+    {
+      content: "I really loved the design.",
+      author: "Man Gidi",
+      role: "Basketballer",
     },
   ];
 
