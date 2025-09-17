@@ -69,6 +69,11 @@ const TestimonialCarousel: React.FC = () => {
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },
+     {
+      content: " The product was not really what I expected but it was still good.",
+      author: "Flacka",
+      role: "Student",
+     }
   ];
 
   const nextSlide = () => {
