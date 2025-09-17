@@ -59,7 +59,7 @@ const TestimonialCarousel: React.FC = () => {
     },
      {
       content: "I absolutely love the  design. Perfect for work, shopping, and everything in between.",
-      author: "Omay Lay",
+      author: "Omay-Lay",
       role: "Musician",
       // avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     },
