@@ -73,11 +73,11 @@ const TestimonialCarousel: React.FC = () => {
       content: " The product was not really what I expected but it was still good.",
       author: "Flacka",
       role: "Student",
-     }
+     },
        {
-      content: " by far one of the best products.",
-      author: "Jesus",
-      role: "Jehovah",
+      content: " The product was not really what I expected but it was still good.",
+      author: "mangise",
+      role: "Student",
      }
   ];
 
