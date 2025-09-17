@@ -59,7 +59,7 @@ const TestimonialCarousel: React.FC = () => {
     },
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
-      author: "Dida Doshi",
+      author: "Dida -Doshi",
       role: "Photographer",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
     },
