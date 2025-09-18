@@ -61,10 +61,6 @@ const TestimonialCarousel: React.FC = () => {
   author:"brian mageto",
   role:"atachee",
 },
-{ contet:"the best of the best",
-  author:"deno davi",
-  role:"creator"
-},
     {
       content: "After trying countless totes, I've finally found my perfect bag. The craftsmanship is exceptional, and the classic design goes with everything.",
       author: "Dida Doshi",

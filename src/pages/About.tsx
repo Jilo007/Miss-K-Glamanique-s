@@ -55,7 +55,7 @@ const About = () => {
             <div className="order-1 md:order-2 animate-slide-from-right">
               <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg">
                 <img
-                  src={normalizePath("/image/carouselbag1.jpg")}
+                  src={normalizePath("/image/bmw.jpeg")}
                   alt="Craftsman working on a tote bag"
                   className="w-full h-full object-cover hover-scale"
                 />
