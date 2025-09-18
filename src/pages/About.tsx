@@ -82,7 +82,7 @@ const About = () => {
               {
                 title: "Sustainability",
                 description:
-                  "We prioritize eco-friendly materials like organic cotton, recycled fabrics, and natural dyes to reduce our environmental impact.",
+                  "We prioritize eco-friendly material like organic cotton, recycled fabrics, and natural dyes to reduce our environmental impact.",
                 image: normalizePath("/image/sustainable.webp"),
               },
               {
@@ -94,7 +94,7 @@ const About = () => {
               {
                 title: "Timeless Design",
                 description:
-                  "We create minimalist, versatile designs that remain stylish and functional for years to come.",
+                  "We create minimalist, versatile designs that remain beautiful stylish and functional for years to come.",
                 image: normalizePath("/image/node.jpeg"),
               },
             ].map((value, index) => (
