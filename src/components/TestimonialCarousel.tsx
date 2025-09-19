@@ -53,7 +53,7 @@ const TestimonialCarousel: React.FC = () => {
       
     },
     {
-      Content:" its good",
+      Content:" its so good",
       author:"og",
       role:"ict",
     },
