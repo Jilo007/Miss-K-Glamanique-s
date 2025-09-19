@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { normalizePath } from "../utils/imageUtils";
+import { Content } from "vaul";
 
 interface TestimonialProps {
   content: string;
@@ -46,8 +47,24 @@ const TestimonialCarousel: React.FC = () => {
 
   const testimonials = [
     {
+      Content:" am very satisfied",
+      author:"omondbrian",
+      role:"designer",
+      
+    },
+    {
+      Content:" its good",
+      author:"og",
+      role:"ict",
+    },
+     {
+      Content:" its  you okay",
+      author:"og",
+      role:"business",
+    },
+    {
       content: "My tote bag has been with me for years. The quality is outstanding, and it still looks as good as new despite daily use. Highly recommend!",
-      author: "Angie Juma",
+      author: "Angie  B Juma",
       role: "Designer",
       // avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     },
@@ -65,7 +82,7 @@ const TestimonialCarousel: React.FC = () => {
     },
     {
       content: "The premium leather handles on my tote bag make all the difference. It's both functional and stylish - I get compliments everywhere I go.",
-      author: "Nas Karuku",
+      author: "Nas-Karuku",
       role: "Student",
       // avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
     },

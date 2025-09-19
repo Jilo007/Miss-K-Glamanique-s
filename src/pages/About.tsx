@@ -21,7 +21,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-medium mb-6 leading-tight">
-              Our Story
+              Our 
             </h1>
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8 text-balance">
               Crafting sustainable, minimalist tote bags since 2024.
@@ -95,7 +95,7 @@ const About = () => {
                 title: "Timeless Design",
                 description:
                   "We create minimalist, versatile designs that remain stylish and functional for years to come.",
-                image: normalizePath("/image/timeless.jpg"),
+                image: normalizePath("/image/batman.webp"),
               },
             ].map((value, index) => (
               <div
